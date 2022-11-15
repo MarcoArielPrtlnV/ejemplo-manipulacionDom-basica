@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM Básica</title>
+</head>
+<body>
+
+    <h1>CALCULADORA</h1>
+
+    <div class="Suma">
+
+        <p class="suma">SUMA</p>
+    
+    
+        <input id="calculo1" onchange="changeOnInput1()" placeholder="Escribe algo aquí"/> +
+        <input id="calculo2" onchange="changeOnInput2()" placeholder="Escribe algo aquí"/>
+        <button id="btnCalcularSuma">Calcular</button>
+    
+        <p class="resultSuma"> </p>
+    
+        </div>
+    
+    
+        <div class="Resta">
+    
+        <p class="resta">RESTA</p>
+    
+        <input id="calculo3" onchange="changeOnInput3()" placeholder="Escribe algo aquí"/> -
+        <input id="calculo4" onchange="changeOnInput4()" placeholder="Escribe algo aquí"/>
+        <button id="btnCalcularResta">Calcular</button>
+    
+        <p class="resultResta"> </p>
+    
+        </div>
+    
+    
+        <div class="Multiplicacion">
+    
+        <p class="multiplicacion">MULTIPLICACIÓN</p>
+    
+        <input id="calculo5" onchange="changeOnInput5()" placeholder="Escribe algo aquí"/> *
+        <input id="calculo6" onchange="changeOnInput6()" placeholder="Escribe algo aquí"/>
+        <button id="btnCalcularMult">Calcular</button>
+    
+        <p class="resultMultiplicacion"> </p>
+    
+    
+        </div>
+    
+        <div class="Division">
+    
+        <p class="division">DIVISIÓN</p>
+    
+        <input id="calculo7" onchange="changeOnInput7()" placeholder="Escribe algo aquí"/> ÷
+        <input id="calculo8" onchange="changeOnInput8()" placeholder="Escribe algo aquí"/>
+        <button id="btnCalcularDiv">Calcular</button>
+    
+        <p class="resultDivision"> </p>
+    
+        </div>
+    
+        <div class="RiazCuadrada">
+        <p class="raizcuadrada">RAÍZCUADRADA</p>
+        √  <input id="calculo9" onchange="changeOnInput9()" placeholder="Escribe algo aquí"/>
+        <button id="btnCalcularSqt">Calcular</button>
+        <p class="resultRaizC"> </p>
+        
+        </div>
+
+    
+    
+<script src="script.js"></script>
+</body>
+</html>
